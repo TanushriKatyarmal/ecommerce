@@ -1,0 +1,94 @@
+.sec{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    background-color: white;
+    color: black;
+}
+.main{
+    background-color: white;
+    color: black;
+    flex-direction: column;
+}
+.land-page{
+     background: url("https://www.mistay.in/travel-blog/content/images/2020/05/cover-4-1.jpg"); 
+    height: 80vh;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    margin-bottom: 40px;
+    
+}
+.land-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.land-page h1{
+    text-shadow: 30px 30px 30px black;
+    font-size: 130px;
+    color: white;
+    font-family: fantasy;
+    font-weight: lighter;
+}
+.land-page button{
+    background-color: rgb(0, 0, 0.9);
+    color: white;
+    cursor: pointer;
+}
+.aside{
+    display: flex;
+    height: 60vh;
+    object-fit: cover;
+    overflow-x: scroll;
+    gap: 30px;
+}
+.aside img{
+    vertical-align: middle;
+}
+.footer{
+    background-color: black;
+    color: white;
+    height: auto;
+    width: auto;
+    width: 100%;display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: row;
+}
+.footdiv{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    text-decoration: none;
+    font-weight: 30px;
+    font-size: 15px;
+    gap: 20px;
+}
+#box2{
+    font-size: 15px;
+    text-align: left;
+    width: 500px;
+}
+#box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    text-decoration: none;
+    font-weight: 30px;
+    font-size: 15px;
+    gap: 20px;
+}

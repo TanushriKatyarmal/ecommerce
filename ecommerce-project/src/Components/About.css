@@ -1,0 +1,18 @@
+.About{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.left{
+    height: auto;
+    width: 60%;
+    background-color:lightgrey;
+}
+.right img{
+    height: 400px;
+    width: auto;
+    margin: 30px;
+}

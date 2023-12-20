@@ -1,0 +1,29 @@
+.navbar{
+    height: auto;
+    width: 100%;
+    background: black;
+    text-align: center;
+    margin: 0px;
+}
+.navart{
+    height: auto;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+input{
+    padding: 12px;
+    text-align: center;
+    border-radius: 10px;
+}
+.logo img{
+    height: 80px;
+    width: 150px;
+}
+.cart img{
+    height: 60px;
+}
